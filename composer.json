@@ -1,0 +1,54 @@
+{
+    "name": "ion-bazan/guzzle-bundle-aliyun-signer-plugin",
+    "type": "library",
+    "description": "Alibaba Cloud API Gateway request signing plugin for Guzzle Bundle ⛽️",
+    "keywords": [
+        "Aliyun",
+        "Alibaba",
+        "Alibaba Cloud",
+        "API Gateway",
+        "Guzzle",
+        "HMAC",
+        "Signature",
+        "http",
+        "bundle",
+        "plugin",
+        "middleware",
+        "framework",
+        "symfony"
+    ],
+    "homepage": "https://github.com/IonBazan/GuzzleBundleAliyunSignerPlugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ion Bazan",
+            "email": "ion.bazan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "eightpoints/guzzle-bundle": "^8.0.1",
+        "ion-bazan/aliyun-http-signer": "^0.2 || ^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "infection/infection": "~0.15",
+        "phpunit/phpunit": "^8.0 || ^9.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "IonBazan\\Bundle\\GuzzleBundleAliyunSignerPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IonBazan\\Bundle\\GuzzleBundleAliyunSignerPlugin\\Tests\\": "tests/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/IonBazan/GuzzleBundleAliyunSignerPlugin/issues"
+    }
+}
